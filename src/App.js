@@ -1,9 +1,9 @@
 import React from "react";
-import Main from "./components/main";
+import Body from "./components/Body";
 
 
 function App() {
-  return <Main />;
+  return <Body />;
 }
 
 export default App;

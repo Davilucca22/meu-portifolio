@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter';
+}
+
+p{
+    color:#626970 ;
+}
+
+h2{
+    color: #bab195 ;
+}
+
+img{
+    margin-top: 40px;
+    width: 100%;
+    animation: pular 1500ms infinite;
+}
+
+@keyframes pular{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(15%);}
+    100%{transform: translateY(0);}
+}
+
+#fraseEfeito{
+    width: 100vw;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#fraseEfeito p{
+    padding: 10px;
+}
+
+#eusou{
+    margin: 10px 0;
+}
+
+.helloW{
+    width: 100vw;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.helloW button{
+    background-color: #11091a;
+    color: #e8d18e;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid #e8d18e;
+    font-weight: 400;
+}
