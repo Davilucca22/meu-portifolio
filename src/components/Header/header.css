@@ -12,7 +12,7 @@ body{
 
 .infoHidden{
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     overflow: hidden; 
     z-index: 999;
     background-color: rgba(47, 47, 77,0.2) ;
@@ -30,16 +30,18 @@ body{
     opacity: 1;
 }
 
-
 .infoDisplay{
-    visibility: visible;
+    position: fixed;
+    top: 0;
     background-color: rgba(47, 47, 77,0.2) ;
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: row;
     width: 100vw;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    z-index: 1000;
 }
 
 span svg{
@@ -87,4 +89,8 @@ a{
 .socialLinks{
     display: flex;
     flex-direction: row;
+}
+
+#bloco{
+    height: 84px;
 }

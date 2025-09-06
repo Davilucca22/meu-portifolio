@@ -18,7 +18,9 @@ export default function Header(){
                 <h1>DAVILUCAS</h1>
                 <span onClick={toggleinfo}><FaGripLines /></span>
             </section>
+            <p id="bloco"></p>
             <section className={`infoHidden ${mostrarInfo ? "ativo" : ""}`}>
+                
             <div id="menus">
                 <ul className="linksPage">
                     <li><a href="#sobre">Sobre mim</a></li>
