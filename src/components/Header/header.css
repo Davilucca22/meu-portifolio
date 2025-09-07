@@ -6,6 +6,10 @@
     font-family: 'inter';
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #11091a;
 }

@@ -23,7 +23,7 @@ export default function Header(){
                 
             <div id="menus">
                 <ul className="linksPage">
-                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#sobremim">Sobre mim</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#conhecimentos">Conhecimentos</a></li>
                     <li><a href="#contato">Contatos</a></li>

@@ -14,8 +14,11 @@ h2{
     color: #bab195 ;
 }
 
-img{
-    margin-top: 40px;
+.apresentacao{
+    height: 100vh;
+}
+
+#imgPC{
     width: 100%;
     animation: pular 1500ms infinite;
 }
@@ -53,4 +56,41 @@ img{
     padding: 10px;
     border: 2px solid #e8d18e;
     font-weight: 400;
+}
+
+#bloco{
+    height: 84px;
+}
+
+#sobremim{
+    background-color:#190d27 ;
+    width: 100%;
+}
+
+#miniCont{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#sobremim h3{
+    color:#bab195;
+    margin: 20px 0;
+}
+
+#descricao{
+    width: 100%;
+    font-size: 15px;
+}
+
+#divft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+#minhaCara{
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+    width: 100%;
 }
