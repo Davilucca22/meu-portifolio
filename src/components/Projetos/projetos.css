@@ -1,0 +1,35 @@
+img{
+    width: 250px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+#ConteinerCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    justify-items: center;
+    width: 80%;
+    background-color: #2f2f4d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.card p{
+    margin: 20px;
+}
+
+.card a{
+    margin: 20px;
+    background-color: #11091a;
+    padding: 10px;
+    border-radius: 50%;
+}

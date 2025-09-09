@@ -1,4 +1,5 @@
 import React from "react";
+import Projetos from "../Projetos/projetos";
 import './main.css'
 
 export default function Main(){
@@ -26,6 +27,12 @@ export default function Main(){
                         <img id="minhaCara" src="./images/eu.jpg" alt="eu"></img>
                     </div>
                 </div>
+            </section>
+
+            <section id="projetos">
+                <p id="bloco"></p>
+
+                <Projetos />
             </section>
         </main>
     )
