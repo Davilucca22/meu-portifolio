@@ -1,5 +1,6 @@
 import React from "react";
 import Projetos from "../Projetos/projetos";
+import Conhecimentos from "../Conhecimentos/Conhecimentos";
 import './main.css'
 
 export default function Main(){
@@ -31,8 +32,12 @@ export default function Main(){
 
             <section id="projetos">
                 <p id="bloco"></p>
-
                 <Projetos />
+            </section>
+
+            <section id='conhecimentos'>
+                <p id="bloco"></p>
+                <Conhecimentos />
             </section>
         </main>
     )
