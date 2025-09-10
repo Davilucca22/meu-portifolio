@@ -1,0 +1,25 @@
+#conteinercards{
+    background-color:#190d27 ;
+    padding: 20px;
+}
+
+.cards{
+    justify-items: start;
+    width: 300px;
+    background-color: #2f2f4d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.cards p{
+    margin: 20px 0;
+    text-align: start;
+}
+
+.cards img{
+    width: 150px;
+    margin-bottom: 10px;
+}
