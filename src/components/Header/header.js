@@ -26,7 +26,7 @@ export default function Header(){
                     <li><a href="#sobremim">Sobre mim</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#conhecimentos">Conhecimentos</a></li>
-                    <li><a href="#contato">Contatos</a></li>
+                    <li><a href="#falecomigo">Contatos</a></li>
                 </ul>
                 <ul className="socialLinks">
                     <li><a href="https://www.linkedin.com/in/davilucca22?trk=contact-info" target="blank_"><SlSocialLinkedin /></a></li>

@@ -2,6 +2,10 @@ import React from "react";
 import Projetos from "../Projetos/projetos";
 import Conhecimentos from "../Conhecimentos/Conhecimentos";
 import './main.css'
+import { FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { BsFillTelephoneFill } from "react-icons/bs";
+
 
 export default function Main(){
     return(
@@ -38,6 +42,14 @@ export default function Main(){
             <section id='conhecimentos'>
                 <p id="bloco"></p>
                 <Conhecimentos />
+            </section>
+
+            <section id="falecomigo">
+                <p id="bloco"></p>
+                <h3>Fale Comigo</h3>
+                <p><MdEmail/> Davilucarios47@gmail.com</p>
+                <p><BsFillTelephoneFill/> +55 35 991152505</p>
+                <button><a href="https://wa.me/qr/ZZFAG3EVAASOA1" ><FaWhatsapp/> Whatsapp</a></button>
             </section>
         </main>
     )
