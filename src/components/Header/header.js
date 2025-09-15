@@ -9,7 +9,6 @@ export default function Header(){
 
     function toggleinfo(){
         setmostrainfo(!mostrarInfo)
-
     }
 
     return(

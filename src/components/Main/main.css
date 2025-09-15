@@ -29,16 +29,6 @@ h2{
     100%{transform: translateY(0);}
 }
 
-#fraseEfeito{
-    width: 100vw;
-    text-align: center;
-    margin-top: 50px;
-}
-
-#fraseEfeito p{
-    padding: 10px;
-}
-
 #eusou{
     margin: 10px 0;
 }
@@ -116,4 +106,51 @@ h3{
 
 #falecomigo button a{
     color: green;
+}
+
+@media (min-width:500px){
+    .apresentacao{
+        display: flex;
+        margin-top: 150px;
+        justify-items: start;
+    }
+
+    #imgPC{
+        width: 700px;
+        height: 400px;
+    }
+
+    .helloW{
+        width: auto;
+        margin-left: 50px;
+        font-size: xx-large;
+        text-align: start;
+    }
+
+    #sobremim{
+        height: 100vh;
+    }
+
+   #miniCont{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 100px;
+   } 
+
+   #divft{
+    width: 400px;
+    margin:0 auto ;
+   }
+
+   .texto{
+    width: 50%;
+    font-size: 20pt;
+    margin:0 auto ;
+   }
+
+   #descricao {
+    font-size: 14pt;
+   }
+
 }

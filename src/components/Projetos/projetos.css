@@ -33,3 +33,14 @@
     padding: 10px;
     border-radius: 50%;
 }
+
+
+@media (min-width:500px){
+    #ConteinerCards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    
+}

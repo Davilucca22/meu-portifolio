@@ -7,7 +7,6 @@ import { IoEyeSharp } from "react-icons/io5";
 export default function Projetos(){
     return(
         <div id="ConteinerCards">
-        <h3 id="titulo">Projetos</h3>
             <div className="card">
                 <h2>Creatina Page</h2>
                 <img className="img" src="./images/paginaCreatina.PNG" alt="print do site"></img>
