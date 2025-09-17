@@ -29,6 +29,11 @@ export default function Conhecimentos(){
                 <h2>React</h2>
                 <p>React é uma biblioteca JavaScript de código aberto voltada para o desenvolvimento de interfaces de usuário. Baseado em componentes reutilizáveis, utiliza o conceito de Virtual DOM para otimizar a atualização da interface. React facilita a criação de aplicações de página única (SPAs) com gerenciamento de estado, escalabilidade e integração com bibliotecas auxiliares como Redux e React Router.</p>
             </div>
+            <div className="cards" id="cardAprend">
+                <img id="seeMore" src="./images/icons8-more-96.png" alt="icone HTML"></img>
+                <h2>Em Breve...</h2>
+                <p>O aprendizado nunca para, em breve mais Stacks</p>
+            </div>
         </div>
     )
 }

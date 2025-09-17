@@ -85,6 +85,11 @@ h3{
     width: 100%;
 }
 
+#tituloProj{
+    width: 100%;
+    text-align: center;
+}
+
 #falecomigo{
     height: 100vh;
     text-align: center;
@@ -108,11 +113,9 @@ h3{
     color: green;
 }
 
-@media (min-width:500px){
+@media (min-width:910px){
     .apresentacao{
-        display: flex;
-        margin-top: 150px;
-        justify-items: start;
+        justify-items: center;
     }
 
     #imgPC{
@@ -153,4 +156,16 @@ h3{
     font-size: 14pt;
    }
 
+   #tituloProj{
+    font-size: 24pt;
+   }
+
+}
+
+@media(min-width:1044px){
+    .apresentacao{
+        display: flex;
+        margin-top: 150px;
+        justify-items: start;
+    }
 }

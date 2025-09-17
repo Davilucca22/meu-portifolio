@@ -24,29 +24,31 @@
     margin-bottom: 10px;
 }
 
+#seeMore{
+    margin-top: 90px;
+    width: auto;
+}
+
+#cardAprend{
+    justify-items: center;
+    align-items: center;
+}
+
+#cardAprend p{
+    text-align: center;
+}
+
 /* ========= Responsividade: telas maiores ========= */
 @media (min-width: 768px){
     #conteinercards{
-        padding: 60px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     .cards{
         width: 340px;
         margin: 16px;
-    }
-}
-
-@media (min-width: 1024px){
-    #conteinercards{
-        display: grid;
-        grid-template-columns: repeat(3, minmax(280px, 1fr));
-        gap: 24px;
-        justify-content: center;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .cards{
-        width: auto;
     }
 }

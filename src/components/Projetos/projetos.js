@@ -12,8 +12,10 @@ export default function Projetos(){
                 <img className="img" src="./images/paginaCreatina.PNG" alt="print do site"></img>
                 <p>um site desenvolvido para mostrar os beneficios e usos da Creatina</p>
                 <p>CSS + HTML</p>
-                <a href="https://github.com/Davilucca22/Creatine-Page" target="blank_" ><FaGithub /></a> 
-                <a href="https://creatine-page.vercel.app/" target="blank_" ><IoEyeSharp /></a> 
+                <div class="links">
+                    <a href="https://github.com/Davilucca22/Creatine-Page" target="blank_" ><FaGithub /></a>
+                    <a href="https://creatine-page.vercel.app/" target="blank_" ><IoEyeSharp /></a>
+                </div>
             </div>
 
             <div className="card">
@@ -21,8 +23,10 @@ export default function Projetos(){
                 <img className="img" src="./images/listaDeTarefas.png" alt="print do site"></img>
                 <p>uma lista de Tarefas simples com dados persistentes e responsividade</p>
                 <p>CSS + HTML + Javascript</p>
-                <a href="https://github.com/Davilucca22/Lista-de-Tarefas" target="blank_" ><FaGithub /></a> 
-                <a href="https://lista-de-tarefas-liard-seven.vercel.app/" target="blank_" ><IoEyeSharp /></a> 
+                <div class="links">
+                    <a href="https://github.com/Davilucca22/Lista-de-Tarefas" target="blank_" ><FaGithub /></a>
+                    <a href="https://lista-de-tarefas-liard-seven.vercel.app/" target="blank_" ><IoEyeSharp /></a>
+                </div>
             </div>
 
             <div className="card">
@@ -30,17 +34,31 @@ export default function Projetos(){
                 <img className="img" src="./images/correnteXtensao.png" alt="print do site"></img>
                 <p>site desenvolvido para cliente para fins industriais, carga de bancos de baterias de chumbo</p>
                 <p>CSS + HTML + Javascript</p>
-                <a href="https://github.com/Davilucca22/Tensao-Corrente" target="blank_" ><FaGithub /></a> 
-                <a href="https://tensao-corrente.vercel.app/" target="blank_" ><IoEyeSharp /></a> 
+                <div class="links">
+                    <a href="https://github.com/Davilucca22/Tensao-Corrente" target="blank_" ><FaGithub /></a>
+                    <a href="https://tensao-corrente.vercel.app/" target="blank_" ><IoEyeSharp /></a>
+                </div>
             </div>
 
             <div className="card">
                 <h2>Site dia dos namorados</h2>
-                <img className="img" src="./images/diadosnamorados.png"  alt="print so site"></img>
+                <img className="img" src="./images/diadosnamorados.png"  alt="print do site"></img>
                 <p>um site desenvolvido para presentear quem voce ama em datas comemorativas</p>
                 <p>CSS + HTML + Javascript</p>
-                <a href="https://github.com/Davilucca22/site-dia-dos-namorados" target="blank_" ><FaGithub /></a> 
-                <a href="https://site-dia-dos-namorados-umber.vercel.app/" target="blank_" ><IoEyeSharp /></a> 
+                <div class="links">
+                    <a href="https://github.com/Davilucca22/site-dia-dos-namorados" target="blank_" ><FaGithub /></a>
+                    <a href="https://site-dia-dos-namorados-umber.vercel.app/" target="blank_" ><IoEyeSharp /></a>
+                </div>
+            </div>
+            <div className="card">
+                <h2>Meu Portifolio</h2>
+                <img className="img" src="./images/portifolio.png"  alt="print do site"></img>
+                <p>O presente site, desenvolvido para mostrar minhas habilidades, qualificaçoes e projetos.</p>
+                <p>CSS + HTML + Javascript + React</p>
+                <div class="links">
+                    <a href="https://github.com/Davilucca22/meu-portifolio" target="blank_" ><FaGithub /></a>
+                    <a href="https://meu-portifolio-dusky-five.vercel.app/" target="blank_" ><IoEyeSharp /></a>
+                </div>
             </div>
         </div>
     )

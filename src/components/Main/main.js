@@ -37,6 +37,7 @@ export default function Main(){
 
             <section id="projetos">
                 <p id="bloco"></p>
+                <h3 id="tituloProj">Projetos</h3>
                 <Projetos />
             </section>
 
