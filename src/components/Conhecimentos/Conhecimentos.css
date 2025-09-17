@@ -3,6 +3,11 @@
     padding: 30px 0;
 }
 
+h3{
+    width: 100%;
+    text-align: center;
+}
+
 .cards{
     justify-items: start;
     width: 300px;
@@ -40,6 +45,11 @@
 
 /* ========= Responsividade: telas maiores ========= */
 @media (min-width: 768px){
+
+    h3{
+        font-size: 24pt;
+    }
+
     #conteinercards{
         display: flex;
         flex-wrap: wrap;

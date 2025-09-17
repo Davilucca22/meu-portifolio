@@ -3,7 +3,10 @@ import './Conhecimentos.css'
 
 export default function Conhecimentos(){
     return(
+        <div>
+
         <div id="conteinercards">
+        <h3>Conhecimentos</h3>
             <div className="cards">
                 <img src="./images/iconeHTML.png" alt="icone HTML"></img>
                 <h2>HTML</h2>
@@ -35,5 +38,7 @@ export default function Conhecimentos(){
                 <p>O aprendizado nunca para, em breve mais Stacks</p>
             </div>
         </div>
+    </div>
+
     )
 }
