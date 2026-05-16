@@ -30,13 +30,13 @@ export default function Projetos(){
             </div>
 
             <div className="card">
-                <h2>Tensao X Corrente</h2>
-                <img className="img" src="./images/correnteXtensao.png" alt="print do site"></img>
-                <p>site desenvolvido para cliente para fins industriais, carga de bancos de baterias de chumbo</p>
-                <p>CSS + HTML + Javascript</p>
+                <h2>Rede Social</h2>
+                <video src="./video/videoProjetoBlog.mp4" autoPlay loop muted playsInline></video>
+                <p>Um Blog completo com autenticação de usuario, pesquisa de outros usuarios, curtidas, postagens, edição de posts e exlusão</p>
+                <p>CSS + React + Node.js + MongoDB</p>
                 <div class="links">
-                    <a href="https://github.com/Davilucca22/Tensao-Corrente" target="blank_" ><FaGithub /></a>
-                    <a href="https://tensao-corrente.vercel.app/" target="blank_" ><IoEyeSharp /></a>
+                    <a href="https://github.com/Davilucca22/Blog-com-node" target="blank_" ><FaGithub /></a>
+                    <a href="https://blog-com-node.vercel.app" target="blank_" ><IoEyeSharp /></a>
                 </div>
             </div>
 

@@ -32,10 +32,12 @@ export default function Conhecimentos(){
                 <h2>React</h2>
                 <p>React é uma biblioteca JavaScript de código aberto voltada para o desenvolvimento de interfaces de usuário. Baseado em componentes reutilizáveis, utiliza o conceito de Virtual DOM para otimizar a atualização da interface. React facilita a criação de aplicações de página única (SPAs) com gerenciamento de estado, escalabilidade e integração com bibliotecas auxiliares como Redux e React Router.</p>
             </div>
-            <div className="cards" id="cardAprend">
-                <img id="seeMore" src="./images/icons8-more-96.png" alt="icone HTML"></img>
-                <h2>Em Breve...</h2>
-                <p>O aprendizado nunca para, em breve mais Stacks</p>
+            <div className="cards" >
+                <img src="./images/mongodb.png" alt="icone HTML"></img>
+                <h2>MongoDB</h2>
+                <p>MongoDB é um banco de dados NoSQL orientado a documentos, utilizado para armazenar grandes volumes de informações de forma flexível, rápida e escalável.
+Diferente dos bancos relacionais tradicionais, o MongoDB não utiliza tabelas e colunas. Os dados são armazenados em documentos no formato BSON (uma versão binária do JSON), permitindo estruturas mais dinâmicas e fáceis de adaptar conforme a necessidade do projeto.
+Essa abordagem torna o MongoDB muito utilizado em aplicações web modernas, APIs, sistemas em tempo real e projetos que precisam de alta performance e flexibilidade no gerenciamento de dados.</p>
             </div>
         </div>
     </div>

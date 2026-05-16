@@ -1,5 +1,6 @@
 .img{
     width: 250px;
+    object-fit: cover;
     box-shadow: 1px 1px 3px black;
     border-radius: 7px;
     margin: 15px 0;
@@ -37,6 +38,15 @@
 .links a:hover{
     transform: translateY(-5px);
     transition: all 200ms ease;
+}
+
+video{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 7px;
+    margin: 15px 0;
 }
 
 
