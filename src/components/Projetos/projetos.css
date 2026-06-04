@@ -1,72 +1,137 @@
-.img{
-    width: 250px;
-    object-fit: cover;
-    box-shadow: 1px 1px 3px black;
-    border-radius: 7px;
-    margin: 15px 0;
+/* ===== GRID ===== */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
 }
 
-#ConteinerCards{
+/* ===== CARD ===== */
+.project-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    transition: transform var(--transition),
+                border-color var(--transition),
+                box-shadow var(--transition);
 }
 
-.card{
-    justify-items: center;
-    width: 300px;
-    background-color: #2f2f4d;
-    padding: 20px;
-    border-radius: 7px;
-    box-shadow: 1px 1px 3px black;
-    margin: 10px auto;
-    text-align: center;
+.project-card:hover {
+    border-color: var(--color-border-hover);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.4),
+                0 0 0 1px var(--color-border-hover);
 }
 
-.card p{
-    margin: 20px 0;
+/* ===== MEDIA ===== */
+.project-media {
+    width: 100%;
+    height: 196px;
+    overflow: hidden;
+    background: var(--color-bg);
+    flex-shrink: 0;
 }
 
-.card a{
-    margin: 20px;
-    background-color: #11091a;
-    padding: 10px;
-    border-radius: 50%;
-}
-
-.links a:hover{
-    transform: translateY(-5px);
-    transition: all 200ms ease;
-}
-
-video{
-    width: 250px;
-    height: 250px;
+.project-media img,
+.project-media video {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    box-shadow: 1px 1px 3px black;
-    border-radius: 7px;
-    margin: 15px 0;
+    transition: transform 0.6s ease;
 }
 
+.project-card:hover .project-media img,
+.project-card:hover .project-media video {
+    transform: scale(1.06);
+}
 
-@media (min-width:768px){
-    #ConteinerCards{
-        flex-direction: row;
-        flex-wrap: wrap;
+/* ===== BODY ===== */
+.project-body {
+    padding: 20px 20px 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0;
+}
+
+.project-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--color-text-light);
+    margin-bottom: 8px;
+}
+
+.project-desc {
+    font-size: 0.85rem;
+    color: var(--color-text);
+    line-height: 1.65;
+    margin-bottom: 16px;
+    flex: 1;
+}
+
+/* ===== TECH BADGES ===== */
+.project-techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 18px;
+}
+
+.tech-badge {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    padding: 3px 10px;
+    border-radius: 100px;
+    background: var(--color-primary-glow);
+    border: 1px solid var(--color-border);
+    color: var(--color-primary-dim);
+    text-transform: uppercase;
+}
+
+/* ===== LINKS ===== */
+.project-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border-radius: var(--radius-sm);
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary-dim);
+    transition: all var(--transition);
+}
+
+.project-link:hover {
+    color: var(--color-primary);
+    border-color: var(--color-border-hover);
+    background: var(--color-primary-glow);
+    transform: translateY(-1px);
+}
+
+.project-link--live {
+    background: var(--color-primary-glow);
+    color: var(--color-primary);
+    border-color: var(--color-border-hover);
+}
+
+.project-link--live:hover {
+    background: rgba(232, 209, 142, 0.18);
+    box-shadow: 0 0 18px rgba(232, 209, 142, 0.12);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 480px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
     }
-
-    .links{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .card{
-        margin: 15px;
-    }
-
-    .img{
-        width: 300px;
-    }
-
 }

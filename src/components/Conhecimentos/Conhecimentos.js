@@ -1,46 +1,86 @@
 import React from "react";
-import './Conhecimentos.css'
+import './Conhecimentos.css';
+import { FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaReact } from "react-icons/fa";
+import { SiMongodb, SiTailwindcss } from "react-icons/si";
 
-export default function Conhecimentos(){
-    return(
-        <div>
+const skills = [
+    {
+        icon: <FaHtml5 />,
+        iconColor: "#E34F26",
+        title: "HTML",
+        description: "Linguagem de marcação responsável pela estruturação do conteúdo na web. Define a hierarquia e o significado semântico dos elementos.",
+    },
+    {
+        icon: <FaCss3Alt />,
+        iconColor: "#1572B6",
+        title: "CSS",
+        description: "Linguagem para definir a apresentação visual de documentos HTML. Suporta Flexbox, Grid, animações e layouts responsivos para múltiplos dispositivos.",
+    },
+    {
+        icon: <FaJs />,
+        iconColor: "#F7DF1E",
+        iconBg: "rgba(247, 223, 30, 0.12)",
+        title: "JavaScript",
+        description: "Linguagem de programação orientada a eventos e tipagem dinâmica. Base do desenvolvimento web moderno, utilizada tanto no front-end quanto no back-end.",
+    },
+    {
+        icon: <FaNodeJs />,
+        iconColor: "#339933",
+        title: "Node.js",
+        description: "Ambiente de execução JavaScript no servidor. Permite criar APIs RESTful, manipular arquivos e integrar bancos de dados com alta eficiência.",
+    },
+    {
+        icon: <FaReact />,
+        iconColor: "#61DAFB",
+        iconBg: "rgba(97, 218, 251, 0.1)",
+        title: "React",
+        description: "Biblioteca JavaScript para criação de interfaces de usuário. Baseada em componentes reutilizáveis com Virtual DOM e suporte a aplicações SPA.",
+    },
+    {
+        icon: <SiMongodb />,
+        iconColor: "#47A248",
+        title: "MongoDB",
+        description: "Banco de dados NoSQL orientado a documentos. Armazena dados em formato BSON, ideal para aplicações modernas que exigem flexibilidade e escalabilidade.",
+    },
+    {
+        icon: <SiTailwindcss />,
+        iconColor: "#06B6D4",
+        iconBg: "rgba(6, 182, 212, 0.1)",
+        title: "Tailwind CSS",
+        description: "Framework CSS utilitário que permite criar interfaces modernas e responsivas com rapidez e consistência visual, sem sair do HTML.",
+    },
+    {
+        icon: <span className="text-icon">PA</span>,
+        iconColor: "#742774",
+        title: "Power Apps",
+        description: "Plataforma Microsoft para criação de aplicações empresariais low-code. Ideal para automações, sistemas internos e integração com dados corporativos.",
+    },
+    {
+        icon: <span className="text-icon">SP</span>,
+        iconColor: "#0078D4",
+        title: "SharePoint",
+        description: "Plataforma Microsoft de colaboração para gerenciamento de documentos, portais corporativos e integração com ferramentas do Microsoft 365.",
+    },
+];
 
-        <div id="conteinercards">
-        <h3>Conhecimentos</h3>
-            <div className="cards">
-                <img src="./images/iconeHTML.png" alt="icone HTML"></img>
-                <h2>HTML</h2>
-                <p>HTML é a linguagem de marcação responsável pela estruturação do conteúdo na web. Ele define a hierarquia e o significado semântico dos elementos, como títulos, parágrafos, listas, links, imagens e formulários</p>
-            </div>
-            <div className="cards">
-                <img src="./images/iconeCSS.png" alt="icone CSS"></img>
-                <h2>CSS</h2>
-                <p>CSS é a linguagem utilizada para definir a apresentação visual de documentos HTML. Por meio dela, é possível aplicar estilos como cores, tipografia, espaçamentos, layouts responsivos e animações. Suporta diferentes paradigmas, como Flexbox e Grid, permitindo a criação de interfaces escaláveis e adaptáveis a múltiplos dispositivos.</p>
-            </div>
-            <div className="cards">
-                <img src="./images/iconeJS.png" alt="icone HTML"></img>
-                <h2>JavaScript</h2>
-                <p>JavaScript é uma linguagem de programação interpretada, orientada a eventos e de tipagem dinâmica, utilizada principalmente no desenvolvimento web.Hoje é amplamente utilizado tanto no front-end quanto no back-end, graças ao Node.js.</p>
-            </div>
-            <div className="cards">
-                <img src="./images/iconeNODE.png" alt="icone HTML"></img>
-                <h2>Node.js</h2>
-                <p>Node.js é um ambiente de execução JavaScript baseado no motor V8 do Google Chrome. Ele permite executar código JavaScript no lado do servidor, oferecendo recursos para criação de APIs, manipulação de arquivos, gerenciamento de pacotes (NPM) e integração com bancos de dados. Sua arquitetura orientada a eventos e não bloqueante o torna altamente eficiente para aplicações escaláveis.</p>
-            </div>
-            <div className="cards">
-                <img src="./images/iconeREACT.png" alt="icone HTML"></img>
-                <h2>React</h2>
-                <p>React é uma biblioteca JavaScript de código aberto voltada para o desenvolvimento de interfaces de usuário. Baseado em componentes reutilizáveis, utiliza o conceito de Virtual DOM para otimizar a atualização da interface. React facilita a criação de aplicações de página única (SPAs) com gerenciamento de estado, escalabilidade e integração com bibliotecas auxiliares como Redux e React Router.</p>
-            </div>
-            <div className="cards" >
-                <img src="./images/mongodb.png" alt="icone HTML"></img>
-                <h2>MongoDB</h2>
-                <p>MongoDB é um banco de dados NoSQL orientado a documentos, utilizado para armazenar grandes volumes de informações de forma flexível, rápida e escalável.
-Diferente dos bancos relacionais tradicionais, o MongoDB não utiliza tabelas e colunas. Os dados são armazenados em documentos no formato BSON (uma versão binária do JSON), permitindo estruturas mais dinâmicas e fáceis de adaptar conforme a necessidade do projeto.
-Essa abordagem torna o MongoDB muito utilizado em aplicações web modernas, APIs, sistemas em tempo real e projetos que precisam de alta performance e flexibilidade no gerenciamento de dados.</p>
-            </div>
+export default function Conhecimentos() {
+    return (
+        <div className="skills-grid">
+            {skills.map((skill, index) => (
+                <article className="skill-card" key={index}>
+                    <div
+                        className="skill-icon"
+                        style={{
+                            color: skill.iconColor,
+                            background: skill.iconBg || `${skill.iconColor}1a`,
+                        }}
+                    >
+                        {skill.icon}
+                    </div>
+                    <h3 className="skill-title">{skill.title}</h3>
+                    <p className="skill-desc">{skill.description}</p>
+                </article>
+            ))}
         </div>
-    </div>
-
-    )
+    );
 }

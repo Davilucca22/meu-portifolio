@@ -1,47 +1,98 @@
-footer{
+/* ===== FOOTER ===== */
+.site-footer {
+    background: var(--color-bg-alt);
+    border-top: 1px solid var(--color-border);
+    padding: 40px 24px 24px;
+}
+
+.footer-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
 }
 
-footer div{
-    margin:10px 70px ;
+/* ===== BRAND ===== */
+.footer-name {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: var(--color-text-light);
+    letter-spacing: 0.06em;
+    margin-bottom: 6px;
 }
 
-footer h4{
-    font-size: 20pt;
-    color: #bab195;
+.footer-accent {
+    color: var(--color-primary);
 }
 
-footer p {
-    margin: 10px 0;
+.footer-copy {
+    font-size: 0.8rem;
+    color: var(--color-text);
 }
 
-#redeSociais ul{
+/* ===== SOCIAL ICONS ===== */
+.footer-social {
     display: flex;
-    flex-direction: row;
+    gap: 10px;
 }
 
-#redeSociais ul li a svg{
-    width: 30px;
-    height: 30px;
+.footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-border);
+    font-size: 1.1rem;
+    color: var(--color-primary-dim);
+    transition: all var(--transition);
 }
 
-#redeSociais ul li:hover{
-    transform: translateY(-10px);
-    transition: all 500ms ease;
+.footer-linkedin:hover {
+    color: #0A66C2;
+    border-color: rgba(10, 102, 194, 0.5);
+    background: rgba(10, 102, 194, 0.1);
+    transform: translateY(-2px);
 }
 
-@media (max-width:510px){
-    footer{
+.footer-github:hover {
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.07);
+    transform: translateY(-2px);
+}
+
+.footer-whatsapp:hover {
+    color: #25D366;
+    border-color: rgba(37, 211, 102, 0.5);
+    background: rgba(37, 211, 102, 0.1);
+    transform: translateY(-2px);
+}
+
+/* ===== DIVIDER & BOTTOM ===== */
+.footer-divider {
+    max-width: var(--max-width);
+    margin: 28px auto 20px;
+    height: 1px;
+    background: var(--color-border);
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--color-text);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 560px) {
+    .footer-container {
         flex-direction: column;
-    }
-
-    footer div{
-        margin:0;
-    }
-
-    h4{
-        margin-top: 10px;
+        align-items: flex-start;
+        gap: 20px;
     }
 }
