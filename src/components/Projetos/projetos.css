@@ -14,15 +14,15 @@
     display: flex;
     flex-direction: column;
     transition: transform var(--transition),
-                border-color var(--transition),
-                box-shadow var(--transition);
+        border-color var(--transition),
+        box-shadow var(--transition);
 }
 
 .project-card:hover {
     border-color: var(--color-border-hover);
     transform: translateY(-6px);
     box-shadow: 0 20px 48px rgba(0, 0, 0, 0.4),
-                0 0 0 1px var(--color-border-hover);
+        0 0 0 1px var(--color-border-hover);
 }
 
 /* ===== MEDIA ===== */

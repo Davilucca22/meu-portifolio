@@ -65,7 +65,7 @@ export default function Main() {
                     </div>
                     <div className="about-photo-wrapper">
                         <img
-                            src="./images/eu.jpeg"
+                            src="./images/eu.png"
                             alt="Foto de Davi Lucas, desenvolvedor web"
                             className="about-photo"
                         />

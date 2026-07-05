@@ -18,15 +18,16 @@ export default function Header() {
     return (
         <header className={`site-header ${scrolled ? 'scrolled' : ''}`}>
             <nav className="nav-container" role="navigation" aria-label="Navegação principal">
-                <a href="#inicio" className="nav-logo" onClick={closeMenu}>
+                <a href="/#inicio" className="nav-logo" onClick={closeMenu}>
                     DAVI<span className="logo-accent">LUCAS</span>
                 </a>
 
                 <ul className="nav-links">
-                    <li><a href="#sobremim">Sobre mim</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#conhecimentos">Conhecimentos</a></li>
-                    <li><a href="#falecomigo">Contatos</a></li>
+                    <li><a href="/#sobremim">Sobre mim</a></li>
+                    <li><a href="/#projetos">Projetos</a></li>
+                    <li><a href="/#conhecimentos">Conhecimentos</a></li>
+                    <li><a href="/planos">Planos</a></li>
+                    <li><a href="/#falecomigo">Contatos</a></li>
                 </ul>
 
                 <div className="nav-social">
@@ -58,10 +59,11 @@ export default function Header() {
                 aria-hidden={!menuOpen}
             >
                 <ul>
-                    <li><a href="#sobremim" onClick={closeMenu}>Sobre mim</a></li>
-                    <li><a href="#projetos" onClick={closeMenu}>Projetos</a></li>
-                    <li><a href="#conhecimentos" onClick={closeMenu}>Conhecimentos</a></li>
-                    <li><a href="#falecomigo" onClick={closeMenu}>Contatos</a></li>
+                    <li><a href="/#sobremim" onClick={closeMenu}>Sobre mim</a></li>
+                    <li><a href="/#projetos" onClick={closeMenu}>Projetos</a></li>
+                    <li><a href="/#conhecimentos" onClick={closeMenu}>Conhecimentos</a></li>
+                    <li><a href="/planos" onClick={closeMenu}>Planos</a></li>
+                    <li><a href="/#falecomigo" onClick={closeMenu}>Contatos</a></li>
                 </ul>
                 <div className="mobile-social">
                     <a href="https://www.linkedin.com/in/davilucca22" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">

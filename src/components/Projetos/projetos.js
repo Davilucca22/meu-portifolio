@@ -13,28 +13,12 @@ const projects = [
         live: "https://creatine-page.vercel.app/",
     },
     {
-        title: "Lista de Tarefas",
-        image: "./images/listaDeTarefas.png",
-        description: "Lista de tarefas com dados persistentes no localStorage e responsividade.",
-        techs: ["HTML", "CSS", "JavaScript"],
-        github: "https://github.com/Davilucca22/Lista-de-Tarefas",
-        live: "https://lista-de-tarefas-liard-seven.vercel.app/",
-    },
-    {
         title: "Rede Social",
-        video: "./video/videoProjetoBlog.mp4",
+        image: "./images/blog.png",
         description: "Blog completo com autenticação de usuário, pesquisa, curtidas, postagens, edição e exclusão.",
         techs: ["CSS", "React", "Node.js", "MongoDB"],
         github: "https://github.com/Davilucca22/Blog-com-node",
         live: "https://blog-com-node.vercel.app",
-    },
-    {
-        title: "Site Dia dos Namorados",
-        image: "./images/diadosnamorados.png",
-        description: "Site para presentear quem você ama em datas comemorativas.",
-        techs: ["HTML", "CSS", "JavaScript"],
-        github: "https://github.com/Davilucca22/site-dia-dos-namorados",
-        live: "https://site-dia-dos-namorados-umber.vercel.app/",
     },
     {
         title: "Meu Portfólio",
@@ -42,7 +26,7 @@ const projects = [
         description: "O presente site, desenvolvido para mostrar minhas habilidades, qualificações e projetos.",
         techs: ["HTML", "CSS", "JavaScript", "React"],
         github: "https://github.com/Davilucca22/meu-portifolio",
-        live: "https://meu-portifolio-dusky-five.vercel.app/",
+        live: "https://lucca.dev.br",
     },
 ];
 
