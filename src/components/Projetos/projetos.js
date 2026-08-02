@@ -21,6 +21,14 @@ const projects = [
         live: "https://blog-com-node.vercel.app",
     },
     {
+        title: "BarberFlow",
+        video: "./video/Saas Barbearia.mp4",
+        description: "Um sistema de agendamento voltado para barbearias com autenticação, Cadastro de Serviços e funcionarios, Edição de perfil e indicadores mensais",
+        techs: ["React","Tailwind","MongoDB","Node.js","Express"],
+        github: "https://github.com/Davilucca22/Agenda-digital",
+        live: "https://agenda.digital.lucca.dev.br",
+    },
+    {
         title: "Meu Portfólio",
         image: "./images/portifolio.png",
         description: "O presente site, desenvolvido para mostrar minhas habilidades, qualificações e projetos.",
