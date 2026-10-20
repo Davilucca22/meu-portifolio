@@ -23,7 +23,7 @@ export default function Planos() {
                     {/* Starter */}
                     <div className="plano-card">
                         <h2 className="plano-title">Starter</h2>
-                        <div className="plano-price">R$ 699,90</div>
+                        <div className="plano-price">R$ 399,90</div>
                         <ul className="plano-features">
                             <li><FaCheck /> 1 Página</li>
                             <li><FaCheck /> Layout Profissional</li>
@@ -40,7 +40,7 @@ export default function Planos() {
                     <div className="plano-card destaque">
                         <div className="plano-badge">Mais Escolhido</div>
                         <h2 className="plano-title">Profissional</h2>
-                        <div className="plano-price">R$ 1.299,90</div>
+                        <div className="plano-price">R$ 599,90</div>
                         <ul className="plano-features">
                             <li><FaCheck /> Tudo do Starter</li>
                             <li><FaCheck /> Design Personalizado e Chamativo</li>
@@ -58,7 +58,7 @@ export default function Planos() {
                     {/* Premium */}
                     <div className="plano-card">
                         <h2 className="plano-title">Premium</h2>
-                        <div className="plano-price">R$ 2.490,00</div>
+                        <div className="plano-price">R$ 799,90</div>
                         <ul className="plano-features">
                             <li><FaCheck /> Tudo do Profissional</li>
                             <li><FaCheck /> Copywriting Estratégico</li>

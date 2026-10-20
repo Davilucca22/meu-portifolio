@@ -5,20 +5,20 @@ import { IoEyeSharp } from "react-icons/io5";
 
 const projects = [
     {
-        title: "Creatina Page",
-        image: "./images/paginaCreatina.PNG",
-        description: "Site desenvolvido para mostrar os benefícios e usos da Creatina.",
-        techs: ["HTML", "CSS"],
-        github: "https://github.com/Davilucca22/Creatine-Page",
-        live: "https://creatine-page.vercel.app/",
+        title: "My Control",
+        image: "./images/mycontrol.jpg",
+        description: "Aplicação feita com vibecoding, o mycontrol é um sistema para gestao pessoal, nele o usuario organiza, financias, habitos, agenda, calendario e rotina de treinos tudo no mesmo lugar. Dados sao salvos apenas em cache local",
+        techs: ["Typescript","HTML","CSS"],
+        github: "https://github.com/Davilucca22/Gestao-Pessoal",
+        live: "https://mycontrol.lucca.dev.br",
     },
     {
-        title: "Rede Social",
-        image: "./images/blog.png",
-        description: "Blog completo com autenticação de usuário, pesquisa, curtidas, postagens, edição e exclusão.",
-        techs: ["CSS", "React", "Node.js", "MongoDB"],
-        github: "https://github.com/Davilucca22/Blog-com-node",
-        live: "https://blog-com-node.vercel.app",
+        title: "Vitrine Virtual",
+        image: "./images/vitrine.jpg",
+        description: "Micro Saas voltado para comerciantes mostrarem seus produtos, conta com sistema de carrinho que ao finalizar, leva o usuario para o whatsapp da loja com os produtos escolhidos",
+        techs: ["React","Tailwind","PostgreSQL","Node.js","Express"],
+        github: "https://github.com/Davilucca22/vitrine-virtual",
+        live: "https://vitrine.lucca.dev.br/vitrine?id_loja=4",
     },
     {
         title: "AgendaZ",
