@@ -33,7 +33,7 @@ export default function Planos() {
                             <li><FaCheck /> Hospedagem cloud com HTTPS e deploy automatizado</li>
                             <li><FaCheck /> Domínio por conta do cliente</li>
                         </ul>
-                        <a href="https://wa.me/qr/ZZFAG3EVAASOA1" className="btn btn-outline plano-btn" target="_blank" rel="noreferrer">Quero o Starter</a>
+                        <a href={`https://wa.me/5535991152505?text=${encodeURIComponent("Ola! gostaria de uma landing page do plano starter")}`} className="btn btn-outline plano-btn" target="_blank" rel="noreferrer">Quero o Starter</a>
                     </div>
 
                     {/* Profissional */}
@@ -52,7 +52,7 @@ export default function Planos() {
                             <li><FaCheck /> Domínio .com.br incluso por 1 ano (renovação por conta do cliente)</li>
                             <li><FaCheck /> Configuração de DNS</li>
                         </ul>
-                        <a href="https://wa.me/qr/ZZFAG3EVAASOA1" className="btn btn-primary plano-btn" target="_blank" rel="noreferrer">Quero o Profissional</a>
+                        <a href={`https://wa.me/5535991152505?text=${encodeURIComponent("Ola! gostaria de uma landing page do plano profissional")}`} className="btn btn-primary plano-btn" target="_blank" rel="noreferrer">Quero o Profissional</a>
                     </div>
 
                     {/* Premium */}
@@ -68,7 +68,7 @@ export default function Planos() {
                             <li><FaCheck /> Automações</li>
                             <li><FaCheck /> Dashboard Básico</li>
                         </ul>
-                        <a href="https://wa.me/qr/ZZFAG3EVAASOA1" className="btn btn-outline plano-btn" target="_blank" rel="noreferrer">Quero o Premium</a>
+                        <a href={`https://wa.me/5535991152505?text=${encodeURIComponent("Ola! gostaria de uma landing page do plano premium")}`} className="btn btn-outline plano-btn" target="_blank" rel="noreferrer">Quero o Premium</a>
                     </div>
                 </div>
 

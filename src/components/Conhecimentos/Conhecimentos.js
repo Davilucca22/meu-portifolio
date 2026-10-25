@@ -1,6 +1,6 @@
 import React from "react";
 import './Conhecimentos.css';
-import { FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaJs, FaNodeJs, FaReact } from "react-icons/fa";
 import { SiMongodb, SiPostgresql, SiTailwindcss } from "react-icons/si";
 
 const skills = [

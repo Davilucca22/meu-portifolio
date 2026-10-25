@@ -44,7 +44,7 @@ export default function Footer() {
                 </nav>
             </div>
             <div className="footer-divider" />
-            <p className="footer-bottom">Desenvolvido com ❤️ por Davi Lucas</p>
+            <p className="footer-bottom">Desenvolvido por <a href="https://instagram.com.br/dev.lucca">Davi Lucas</a></p>
         </footer>
     );
 }

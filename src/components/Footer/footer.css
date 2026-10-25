@@ -88,6 +88,10 @@
     color: var(--color-text);
 }
 
+.footer-bottom a {
+    color: #25D366;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 560px) {
     .footer-container {
